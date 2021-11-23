@@ -1,0 +1,23 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.navbar .logo {
+  width: 100px;
+  position: absolute;
+  z-index: 4;
+  top: -10px;
+}
+.myValue {
+  width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1000px) {
+  .myValue {
+    width: 100%;
+  }
+}

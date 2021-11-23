@@ -1,0 +1,10 @@
+.pemesanan{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  width: 430px;
+  /* height: 300px; */
+}
