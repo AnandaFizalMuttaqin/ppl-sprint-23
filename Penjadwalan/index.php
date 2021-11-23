@@ -2,11 +2,9 @@
 
 </head>
 <body>
-    <?php require "$absolute_path/app/view/sidebar.php"; ?>
+  <?php require "$absolute_path/app/views/sidebar.php"; ?>
 
-    <div class="body-container" data-aos="zoom-in">
-      <a class="btn btn-primary" href="TambahJadwal/">Tambah Jadwal</a>
-      <a class="btn btn-warning" href="UbahJadwal/">Ubah Jadwal</a>
+    <div class="body-container">
 
       <table class="table">
         <tr class="table table-primary">
@@ -28,5 +26,6 @@
     
 
   <?php
-require "$absolute_path/app/view/footer.php";
+
 ?>
+<?php require "$absolute_path/app/views/template/footer.php"; ?>
